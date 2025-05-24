@@ -1,0 +1,451 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Prajwal Maharjan | UI/UX Designer | Portfolio
+  </title>
+  <meta content="Prajwal Maharjan is a UI/UX Designer and Creative Technologist from Nepal" name="description"/>
+  <meta content="Prajwal Maharjan" name="author"/>
+  <meta content="Prajwal, Maharjan, UI Designer, UX Designer, Nepal, Portfolio, Creative Technologist" name="keywords"/>
+  <meta content="index, follow" name="robots"/>
+  <link href="https://placehold.co/32x32/png?text=AB" rel="icon" type="image/png"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <style>
+   /* Custom animations */
+    @keyframes slideInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-slideInUp {
+      animation: slideInUp 0.8s ease forwards;
+    }
+    @keyframes fadeInScale {
+      0% {
+        opacity: 0;
+        transform: scale(0.85);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    .animate-fadeInScale {
+      animation: fadeInScale 0.6s ease forwards;
+    }
+    /* Scroll snap for sections */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-900 font-poppins selection:bg-blue-400 selection:text-white">
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+   <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+    <a class="text-2xl font-bold text-blue-600 tracking-wide hover:text-blue-700 transition" href="#home">
+     Prajwal Maharjan
+    </a>
+    <nav>
+     <ul class="hidden md:flex space-x-8 text-gray-700 font-medium">
+      <li>
+       <a class="hover:text-blue-600 transition" href="#home">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-blue-600 transition" href="#about">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-blue-600 transition" href="#skills">
+        Skills
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-blue-600 transition" href="#projects">
+        Projects
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-blue-600 transition" href="#contact">
+        Contact
+       </a>
+      </li>
+     </ul>
+     <button aria-label="Toggle Menu" class="md:hidden focus:outline-none" id="menu-btn">
+      <i class="fas fa-bars text-2xl text-gray-700">
+      </i>
+     </button>
+    </nav>
+   </div>
+   <div class="hidden md:hidden bg-white shadow-md" id="mobile-menu">
+    <ul class="flex flex-col space-y-4 p-6 text-gray-700 font-medium">
+     <li>
+      <a class="block hover:text-blue-600 transition" href="#home">
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-blue-600 transition" href="#about">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-blue-600 transition" href="#skills">
+       Skills
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-blue-600 transition" href="#projects">
+       Projects
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-blue-600 transition" href="#contact">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center bg-gradient-to-tr from-blue-600 to-indigo-700 text-white px-6 text-center relative overflow-hidden" id="home">
+  <img alt="Portrait of Prajwal Maharjan" src="photo.jpg" class="rounded-full border-4 border-white shadow-lg mb-8 w-36 h-36 object-cover animate-fadeInScale" width="150" height="150"/>
+   <h1 class="text-5xl md:text-6xl font-extrabold mb-4 animate-slideInUp">
+    Hi, I'm
+    <span class="text-yellow-400">
+     Prajwal Maharjan
+    </span>
+   </h1>
+   <p class="text-xl md:text-2xl max-w-xl mb-8 animate-slideInUp" style="animation-delay: 0.2s;">
+    UI/UX Designer &amp; Creative Technologist from Nepal
+    <br/>
+    Crafting intuitive digital experiences with passion and precision.
+   </p>
+   <a class="inline-block bg-yellow-400 text-indigo-900 font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-yellow-300 transition animate-slideInUp" href="#about" style="animation-delay: 0.4s;">
+    Discover More
+   </a>
+
+<ul class="flex justify-center space-x-6 absolute bottom-10 md:bottom-16 inset-x-0 mx-auto text-yellow-300 text-2xl animate-slideInUp" style="animation-delay: 0.6s;">
+  <li>
+    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/prajwal-maharjan-8951ba359/" rel="noopener" target="_blank">
+      <i class="fab fa-linkedin-in hover:text-yellow-400 transition"></i>
+    </a>
+  </li>
+  <li>
+    <a aria-label="Behance" href="https://www.behance.net/pzal-mhrzn" rel="noopener" target="_blank">
+      <i class="fab fa-behance hover:text-yellow-400 transition"></i>
+    </a>
+  </li>
+</ul>
+
+
+
+  </section>
+  <!-- About Section -->
+  <section class="max-w-7xl mx-auto px-6 py-20 md:py-32" id="about">
+   <div class="flex flex-col md:flex-row items-center md:space-x-16">
+    <div class="flex-shrink-0 w-64 h-64 md:w-80 md:h-80 rounded-xl overflow-hidden shadow-lg animate-fadeInScale">
+<div class="flex items-center justify-center w-full h-full">
+  <img alt="Professional portrait of Prajwal Maharjan, a Nepalese UI/UX designer, wearing a smart casual shirt, smiling confidently in a bright modern office environment" class="object-cover w-full h-full" height="500" src="photo.jpg" width="350"/>
+</div>
+      
+</div>
+    <div class="mt-10 md:mt-0 max-w-xl text-center md:text-left animate-slideInUp">
+     <h2 class="text-4xl font-bold mb-4 text-indigo-700">
+      About Me
+     </h2>
+     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+      Hello! I am a passionate UI/UX Designer and Creative Technologist with over years of experience designing engaging digital experiences. I specialize in user-centered design, Wireframing and prototyping. I love blending creativity with technology to solve real-world problems and create delightful user journeys.
+     </p>
+     <ul class="text-gray-600 space-y-2 text-left">
+      <li>
+       <strong class="text-indigo-600">
+        Full Name:
+       </strong>
+       Prajwal Maharjan
+      </li>
+      <li>
+       <strong class="text-indigo-600">
+        Birth Date:
+       </strong>
+       April 05
+      </li>
+      <li>
+       <strong class="text-indigo-600">
+        Location:
+       </strong>
+       Teku, Kathmandu, Nepal
+      </li>
+      <li>
+       <strong class="text-indigo-600">
+        Languages:
+       </strong>
+       Nepali (Native), English (Proficient)
+      </li>
+      <li>
+       <strong class="text-indigo-600">
+        Email:
+       </strong>
+       <a class="text-yellow-500 hover:underline" href="mailto:prajwal.mhrzn@gmail.com">
+        prajwal.mhrzn@gmail.com
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </section>
+  <!-- Skills Section -->
+  <section class="bg-indigo-50 py-20 px-6" id="skills">
+   <div class="max-w-7xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-indigo-700 mb-12">
+     Skills &amp; Expertise
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
+     <div class="bg-white rounded-xl shadow-lg p-8 animate-fadeInScale">
+      <i class="fas fa-pencil-ruler text-yellow-400 text-5xl mb-6">
+      </i>
+      <h3 class="text-2xl font-semibold mb-4 text-indigo-800">
+       Design
+      </h3>
+      <ul class="text-gray-700 space-y-2 text-left">
+       <li>
+        UI/UX Design &amp; Prototyping
+       </li>
+       <li>
+        Wireframing &amp; User Flows
+       </li>
+       <li>
+        Interaction &amp; Visual Design
+       </li>
+       <li>
+        Branding &amp; Identity
+       </li>
+       <li>
+        Responsive &amp; Mobile-first Design
+       </li>
+      </ul>
+     </div>
+     <div class="bg-white rounded-xl shadow-lg p-8 animate-fadeInScale" style="animation-delay: 0.15s;">
+      <i class="fas fa-laptop-code text-yellow-400 text-5xl mb-6">
+      </i>
+      <h3 class="text-2xl font-semibold mb-4 text-indigo-800">
+       Tools
+      </h3>
+      <ul class="text-gray-700 space-y-2 text-left">
+       <li>
+        Figma
+       </li>
+       <li>
+        Adobe Photoshop &amp; Illustrator
+       </li>
+       <li>
+        Trello &amp; Notion
+       </li>
+       <li>
+        Webflow &amp; WordPress 
+       </li>
+       <li>
+        Version Control (Git)
+       </li>
+      </ul>
+     </div>
+     <div class="bg-white rounded-xl shadow-lg p-8 animate-fadeInScale" style="animation-delay: 0.3s;">
+      <i class="fas fa-users-cog text-yellow-400 text-5xl mb-6">
+      </i>
+      <h3 class="text-2xl font-semibold mb-4 text-indigo-800">
+       Soft Skills
+      </h3>
+      <ul class="text-gray-700 space-y-2 text-left">
+       <li>
+        Creative Problem Solving
+       </li>
+       <li>
+        Project Management
+       </li>
+       <li>
+        Team Collaboration 
+       </li>
+       <li>
+        Effective Communication
+       </li>
+       <li>
+        Agile &amp; Scrum Methodologies
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Projects Section -->
+  <section class="max-w-7xl mx-auto px-6 py-20" id="projects">
+   <h2 class="text-4xl font-bold text-indigo-700 mb-12 text-center">
+    Selected Projects
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <article class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-fadeInScale">
+     <img alt="Dashboard UI design for a fintech app showing analytics and user data with clean modern interface" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/f350a72d-ae13-4210-7d6d-83f52fa93a4b.jpg" width="600"/>
+     <div class="p-6">
+      <h3 class="text-2xl font-semibold mb-2 text-indigo-800">
+       Fintech Dashboard UI
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Designed a clean and intuitive dashboard interface for a fintech startup, focusing on data visualization and user engagement.
+      </p>
+      <a class="inline-block text-yellow-500 font-semibold hover:underline" href="https://www.behance.net/gallery/119433257/Ecstatic-Paradox-Identity" rel="noopener" target="_blank">
+       View Case Study
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-fadeInScale" style="animation-delay: 0.1s;">
+     <img alt="Mobile app UX design for a health tracking app with user-friendly onboarding and activity tracking screens" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/2f919d5e-c3a2-440c-0e30-3d9ebb83e175.jpg" width="600"/>
+     <div class="p-6">
+      <h3 class="text-2xl font-semibold mb-2 text-indigo-800">
+       Health Tracker App UX
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Created user flows and wireframes for a health tracking app, improving onboarding experience and daily activity logging.
+      </p>
+      <a class="inline-block text-yellow-500 font-semibold hover:underline" href="https://www.behance.net/gallery/119433257/Ecstatic-Paradox-Identity" rel="noopener" target="_blank">
+       View Case Study
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-fadeInScale" style="animation-delay: 0.2s;">
+     <img alt="Website redesign for a non-profit organization with modern layout, accessibility improvements, and responsive design" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/1a69c0ec-d9d3-4813-2ff3-ce4467823369.jpg" width="600"/>
+     <div class="p-6">
+      <h3 class="text-2xl font-semibold mb-2 text-indigo-800">
+       Non-Profit Website Redesign
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Led the redesign of a non-profit website to enhance accessibility, responsiveness, and user engagement across devices.
+      </p>
+      <a class="inline-block text-yellow-500 font-semibold hover:underline" href="https://www.behance.net/gallery/119433257/Ecstatic-Paradox-Identity" rel="noopener" target="_blank">
+       View Case Study
+      </a>
+     </div>
+    </article>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="bg-indigo-700 text-white py-20 px-6" id="contact">
+   <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-6">
+     Get In Touch
+    </h2>
+    <p class="mb-10 text-lg max-w-xl mx-auto">
+     I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
+    </p>
+    <form action="https://formspree.io/f/xoqrlyja" class="space-y-6 text-left" method="POST">
+     <div>
+      <label class="block mb-2 font-semibold" for="name">
+       Name
+      </label>
+      <input class="w-full rounded-md px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-yellow-400" id="name" minlength="2" name="name" placeholder="Your full name" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold" for="email">
+       Email
+      </label>
+      <input class="w-full rounded-md px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-yellow-400" id="email" name="_replyto" placeholder="you@example.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold" for="subject">
+       Subject
+      </label>
+      <input class="w-full rounded-md px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-yellow-400" id="subject" name="_subject" placeholder="Subject (optional)" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold" for="message">
+       Message
+      </label>
+      <textarea class="w-full rounded-md px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-yellow-400" id="message" name="message" placeholder="Write your message here..." required="" rows="6"></textarea>
+     </div>
+     <div class="text-center">
+      <button class="bg-yellow-400 text-indigo-900 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-yellow-300 transition" type="submit">
+       Send Message
+      </button>
+     </div>
+    </form>
+    <div class="mt-10 space-y-6">
+     <div>
+      <h3 class="text-xl font-semibold">
+       Location
+      </h3>
+      <p>
+       Teku, Kathmandu, Nepal
+      </p>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold">
+       Email
+      </h3>
+      <p>
+       <a class="underline hover:text-yellow-300" href="mailto:prajwal.mhrzn@gmail.com">
+        prajwal.mhrzn@gmail.com
+       </a>
+      </p>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold">
+       Phone
+      </h3>
+      <p>
+       Number:
+       <a class="underline hover:text-yellow-300" href="tel:+977-9823816744">
+        +977 9823816744
+        </a>
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-indigo-900 text-indigo-300 py-8 px-6">
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+    <p>
+     ©
+     <span id="year">
+     </span>
+     Prajwal Maharjan. All rights reserved.
+    </p>
+    <ul class="flex space-x-6 text-yellow-400 text-xl">
+     <li>
+      <a aria-label="LinkedIn" class="hover:text-yellow-300" href="https://www.linkedin.com/in/prajwal-maharjan-8951ba359/" rel="noopener" target="_blank">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </li>
+     <li>
+      <a aria-label="Behance" class="hover:text-yellow-300" href="https://www.behance.net/pzal-mhrzn" rel="noopener" target="_blank">
+       <i class="fab fa-behance">
+       </i>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </footer>
+  <script>
+   // Mobile menu toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+ </body>
+</html>
